@@ -1,4 +1,4 @@
-5351
+5349
 84C:\Users\felip\simplefolio\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.mjs133050737018670000 0
 52C:\Users\felip\simplefolio\node_modules\caniuse-lite133050988819680751 1
 47C:\Users\felip\simplefolio\node_modules\@parcel133050988816420015 1
@@ -34,9 +34,9 @@
 71C:\Users\felip\simplefolio\node_modules\caniuse-lite\data\regions\NU.js133050736811400000 0
 71C:\Users\felip\simplefolio\node_modules\caniuse-lite\data\regions\SR.js133050736811400000 0
 70C:\Users\felip\simplefolio\node_modules\bootstrap\js\src\util\swipe.js133050988690390000 0
-31C:\Users\felip\simplefolio\dist133071403953567024 1
+31C:\Users\felip\simplefolio\dist133071415929853542 1
 69C:\Users\felip\simplefolio\node_modules\source-map-support\LICENSE.md133050737020630000 0
-37C:\Users\felip\simplefolio\.gitignore133050987830321998 0
+37C:\Users\felip\simplefolio\.gitignore133071413801717071 0
 68C:\Users\felip\simplefolio\node_modules\popper.js\dist\popper.min.js133050988690460000 0
 52C:\Users\felip\simplefolio\node_modules\svgo\LICENSE133050737059780000 0
 82C:\Users\felip\simplefolio\node_modules\posthtml-parser\dist\location-tracker.d.ts133050988782940000 0
@@ -2012,7 +2012,6 @@
 63C:\Users\felip\simplefolio\node_modules\@parcel\packager-js\lib133050988826802364 1
 71C:\Users\felip\simplefolio\node_modules\caniuse-lite\data\regions\MZ.js133050736811400000 0
 73C:\Users\felip\simplefolio\node_modules\jquery\src\data\var\acceptData.js133050988690450000 0
-38C:\Users\felip\simplefolio\dist\assets133051026202750915 1
 69C:\Users\felip\simplefolio\node_modules\dom-serializer\lib\index.d.ts133050737072010000 0
 62C:\Users\felip\simplefolio\node_modules\picomatch\lib\parse.js133050737001020000 0
 83C:\Users\felip\simplefolio\node_modules\caniuse-lite\data\features\passwordrules.js133050736811400000 0
@@ -3424,7 +3423,6 @@
 70C:\Users\felip\simplefolio\node_modules\@popperjs\core\lib\popper.d.ts133050988690510000 0
 88C:\Users\felip\simplefolio\node_modules\@parcel\transformer-svg\node_modules\.bin\semver133050988850447656 0
 71C:\Users\felip\simplefolio\node_modules\caniuse-lite\data\regions\SN.js133050736811400000 0
-52C:\Users\felip\simplefolio\dist\assets\Currículo.pdf133051026202740929 0
 71C:\Users\felip\simplefolio\node_modules\caniuse-lite\data\regions\SO.js133050736811400000 0
 84C:\Users\felip\simplefolio\node_modules\caniuse-lite\data\features\array-includes.js133050736811400000 0
 71C:\Users\felip\simplefolio\node_modules\caniuse-lite\data\regions\ST.js133050736811400000 0
