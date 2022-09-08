@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
@@ -17,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <title>Felipe Sobrinho | Front-end Developer</title>
     <meta name="keywords" content="[username], [name], skill" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta
+      name="description"
+      content="[Felipe Sobrinho] | Front-end Developer"
+    />
 
     <link
       rel="stylesheet"
@@ -33,12 +22,8 @@
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
-
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
 
@@ -46,13 +31,13 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Oi, meu nome é <span class="text-color-main">Felipe Sobrinho</span>
           <br />
-          I'm the Unknown Developer.
+          Desenvolvedor Front-end.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
+            >Saiba mais</a
           >
         </p>
       </div>
@@ -62,7 +47,7 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
+        <h2 class="section-title load-hidden">Sobre mim</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
@@ -79,20 +64,28 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                Sou um desenvolvedor front-end. Trabalhei em alguns projetos
+                durante cursos e bootcamps. Com meus projetos e estudos por
+                conta própria, tenho dois anos de experiência em desenvolvimento
+                web. Gosto de estudar novas tecnologias. Atualmente estou
+                estudando
+                <strong>
+                  <a href="https://nodejs.org/en/"> Nodejs, </a>
+                  <a href="https://pt-br.reactjs.org/"> React, </a>
+                  <a href="https://reactnative.dev/"> React Native </a>
+                  e
+                  <a href="https://www.mysql.com/"> MySQL. </a>
+                </strong>
               </p>
-              <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
-              </p>
+              <!-- <p class="about-wrapper__info-text"></p> -->
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="assets/Currículo.pdf"
                 >
-                  View Resume
+                  Ver Currículo
                 </a>
               </span>
             </div>
@@ -106,43 +99,46 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <h2 class="section-title dark-blue-text">Projetos</h2>
 
-          <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Covid-19 PWA</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Uma Progressive Web Application(PWA) desenvolvida com React
+                    para mapear os dados do COVID19 pelo mundo.
+                    <br />
+                    <strong> Tecnologias: </strong> React, Styled-Components,
+                    Material-Ui.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://dio-pwa-covid19.vercel.app/"
                 >
-                  See Live
+                  Ver Site
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/felipesobrinho/DioPWACovid19"
                 >
-                  Source Code
+                  Ver no Github
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://dio-pwa-covid19.vercel.app/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -151,9 +147,9 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="COVID19 Progressive Web Application"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/proj1.png"
                     />
                   </div>
                 </a>
@@ -166,37 +162,46 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Twitter Clone</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Clone do Twitter, desenvolvido durante as aulas de UI Clone
+                    disponibilizadas no canal da
+                    <a
+                      href="https://www.youtube.com/watch?v=204ewU7NRO0&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp"
+                    >
+                      Rocketseat.
+                    </a>
+                    <br />
+                    <strong> Tecnologias: </strong> React, TypeScript,
+                    Styled-Components.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://twitter-clone-rockeseat.netlify.app/"
                 >
-                  See Live
+                  Ver Site
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/felipesobrinho/twitter-clone-rocketseat"
                 >
-                  Source Code
+                  Ver no Github
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://twitter-clone-rockeseat.netlify.app/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -205,9 +210,9 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="Twitter Clone"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/proj2.png"
                     />
                   </div>
                 </a>
@@ -220,37 +225,43 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Countdown</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Countdown desenvolvido com base no Layout disponilibilizado
+                    na área de Desafios no site da
+                    <a href="https://app.rocketseat.com.br/discover/challenges">
+                      Rocketseat.
+                    </a>
+                    <br />
+                    <strong> Tecnologias: </strong> React, Sass.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://countdown-rocketseat.vercel.app/"
                 >
-                  See Live
+                  Ver Site
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/felipesobrinho/countdown-rocketseat"
                 >
-                  Source Code
+                  Ver no Github
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://countdown-rocketseat.vercel.app/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -259,9 +270,126 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="Countdown"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/proj3.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Pokedex</h3>
+                <div>
+                  <p class="mb-4">
+                    Pokedex desenovolvida durante as aulas de HTML, CSS e
+                    Javascript do canal
+                    <a href="https://www.youtube.com/watch?v=SjtdH3dWLa8"
+                      >Manual do Dev.</a
+                    >
+                    <strong> Tecnologias: </strong>HTML, CSS, Javascript.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://felipesobrinho.github.io/pokedex/"
+                >
+                  Ver Site
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/felipesobrinho/pokedex"
+                >
+                  Ver no Github
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://felipesobrinho.github.io/pokedex/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Pokedex"
+                      class="img-fluid"
+                      src="assets/proj4.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Tela de Login</h3>
+                <div>
+                  <p class="mb-4">
+                    Tela de login desenvolvida com base no video
+                    disponilibilizado no canal
+                    <a href="https://www.youtube.com/watch?v=69-WfrVBli8">
+                      Markzuel.</a
+                    >
+                    <br />
+                    <strong> Tecnologias:</strong> HTML, CSS, Javascript.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://felipesobrinho.github.io/login-dark-theme/"
+                >
+                  Ver Site
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/felipesobrinho/login-dark-theme"
+                >
+                  Ver no Github
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://felipesobrinho.github.io/login-dark-theme/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Login Form"
+                      class="img-fluid"
+                      src="assets/proj5.png"
                     />
                   </div>
                 </a>
@@ -277,15 +405,15 @@
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title">Contato</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">(31) 99237-8821</p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:felipe.sobrinho.3@outlook.com"
+            >Me envie um email!</a
           >
         </div>
       </div>
@@ -299,48 +427,31 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/felipe-sobrinho/"
+            target="_blank"
+          >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://github.com/felipesobrinho"
+            target="_blank"
+          >
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
 
         <hr />
 
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
           © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
           <a
             rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
+            href="https://github.com/felipesobrinho"
+            target="_blank"
+            >Felipe Sobrinho</a
           >
         </p>
       </div>
